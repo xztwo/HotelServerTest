@@ -1,0 +1,78 @@
+syntax = "proto3";
+
+option csharp_namespace = "Hotel";
+
+package hotel;
+
+// Авторизация
+message LoginRequest {
+    string username = 1;
+    string password = 2;
+}
+
+message LoginResponse {
+    bool success = 1;
+    string message = 2;
+    string role = 3;
+}
+
+service AuthService {
+    rpc Login(LoginRequest) returns (LoginResponse);
+}
+
+// Бронирование
+message BookingRequest {
+    string customer_name = 1;
+    string room_type = 2;
+    string check_in_date = 3;
+    string check_out_date = 4;
+}
+
+message BookingResponse {
+    bool success = 1;
+    string message = 2;
+}
+
+message Booking {
+    string customer_name = 1;
+    string room_type = 2;
+    string check_in_date = 3;
+    string check_out_date = 4;
+}
+
+message BookingListResponse {
+    repeated Booking bookings = 1;
+}
+
+service BookingService {
+    rpc BookRoom(BookingRequest) returns (BookingResponse);
+    rpc GetBookings(Empty) returns (BookingListResponse);
+}
+
+// Заявки уборщику
+message CleaningRequest {
+    int32 id = 1;
+    string room_number = 2;
+    string category = 3;
+    bool completed = 4;
+}
+
+message CleaningRequestList {
+    repeated CleaningRequest requests = 1;
+}
+
+message CleaningRequestId {
+    int32 id = 1;
+}
+
+message Ack {
+    bool success = 1;
+    string message = 2;
+}
+
+message Empty {}
+
+service CleaningService {
+    rpc GetCleaningRequests(Empty) returns (CleaningRequestList);
+    rpc CompleteRequest(CleaningRequestId) returns (Ack);
+}

@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Заявка на обслуживание</title>
+</head>
+<body>
+    <h2>Подать заявку</h2>
+    <form id="requestForm">
+        <label for="room">Номер комнаты:</label>
+        <input type="text" id="room" name="room" required><br><br>
+
+        <label for="description">Описание проблемы:</label><br>
+        <textarea id="description" name="description" rows="4" cols="50" required></textarea><br><br>
+
+        <button type="submit">Отправить</button>
+    </form>
+
+    <p id="status"></p>
+
+    <script>
+        document.getElementById("requestForm").addEventListener("submit", async function (e) {
+            e.preventDefault();
+
+            const room = document.getElementById("room").value;
+            const description = document.getElementById("description").value;
+
+            try {
+                const response = await fetch("http://localhost:5208/api/ServiceRequest", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify({
+                        roomNumber: room,
+                        description: description
+                    })
+                });
+
+                if (response.ok) {
+                    document.getElementById("status").innerText = "Заявка отправлена!";
+                    document.getElementById("requestForm").reset();
+                } else {
+                    const errorText = await response.text();
+                    document.getElementById("status").innerText = "Ошибка при отправке заявки: " + errorText;
+                }
+            } catch (error) {
+                document.getElementById("status").innerText = "Ошибка подключения: " + error.message;
+            }
+        });
+    </script>
+</body>
+</html>

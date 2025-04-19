@@ -1,0 +1,504 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\semen\\Downloads\\HotelServerTest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{05452B50-0D7C-4F45-B0F4-F1828AA03636}|HotelServer\\HotelServer.csproj|c:\\users\\semen\\downloads\\hotelservertest\\hotelserver\\hotelserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{05452B50-0D7C-4F45-B0F4-F1828AA03636}|HotelServer\\HotelServer.csproj|solutionrelative:hotelserver\\hotelserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CA2E48E-26EE-43F0-8ABE-29E41B1503EC}|HotelClient\\HotelClient.csproj|c:\\users\\semen\\downloads\\hotelservertest\\hotelclient\\protos\\hotel.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{7CA2E48E-26EE-43F0-8ABE-29E41B1503EC}|HotelClient\\HotelClient.csproj|solutionrelative:hotelclient\\protos\\hotel.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05452B50-0D7C-4F45-B0F4-F1828AA03636}|HotelServer\\HotelServer.csproj|c:\\users\\semen\\downloads\\hotelservertest\\hotelserver\\protos\\hotel.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{05452B50-0D7C-4F45-B0F4-F1828AA03636}|HotelServer\\HotelServer.csproj|solutionrelative:hotelserver\\protos\\hotel.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05452B50-0D7C-4F45-B0F4-F1828AA03636}|HotelServer\\HotelServer.csproj|c:\\users\\semen\\downloads\\hotelservertest\\hotelserver\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05452B50-0D7C-4F45-B0F4-F1828AA03636}|HotelServer\\HotelServer.csproj|solutionrelative:hotelserver\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05452B50-0D7C-4F45-B0F4-F1828AA03636}|HotelServer\\HotelServer.csproj|c:\\users\\semen\\downloads\\hotelservertest\\hotelserver\\services\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05452B50-0D7C-4F45-B0F4-F1828AA03636}|HotelServer\\HotelServer.csproj|solutionrelative:hotelserver\\services\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05452B50-0D7C-4F45-B0F4-F1828AA03636}|HotelServer\\HotelServer.csproj|c:\\users\\semen\\downloads\\hotelservertest\\hotelserver\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05452B50-0D7C-4F45-B0F4-F1828AA03636}|HotelServer\\HotelServer.csproj|solutionrelative:hotelserver\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05452B50-0D7C-4F45-B0F4-F1828AA03636}|HotelServer\\HotelServer.csproj|c:\\users\\semen\\downloads\\hotelservertest\\hotelserver\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05452B50-0D7C-4F45-B0F4-F1828AA03636}|HotelServer\\HotelServer.csproj|solutionrelative:hotelserver\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05452B50-0D7C-4F45-B0F4-F1828AA03636}|HotelServer\\HotelServer.csproj|c:\\users\\semen\\downloads\\hotelservertest\\hotelserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05452B50-0D7C-4F45-B0F4-F1828AA03636}|HotelServer\\HotelServer.csproj|solutionrelative:hotelserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05452B50-0D7C-4F45-B0F4-F1828AA03636}|HotelServer\\HotelServer.csproj|c:\\users\\semen\\downloads\\hotelservertest\\hotelserver\\services\\cleaningservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05452B50-0D7C-4F45-B0F4-F1828AA03636}|HotelServer\\HotelServer.csproj|solutionrelative:hotelserver\\services\\cleaningservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05452B50-0D7C-4F45-B0F4-F1828AA03636}|HotelServer\\HotelServer.csproj|c:\\users\\semen\\downloads\\hotelservertest\\hotelserver\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05452B50-0D7C-4F45-B0F4-F1828AA03636}|HotelServer\\HotelServer.csproj|solutionrelative:hotelserver\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05452B50-0D7C-4F45-B0F4-F1828AA03636}|HotelServer\\HotelServer.csproj|c:\\users\\semen\\downloads\\hotelservertest\\hotelserver\\models\\bookingrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05452B50-0D7C-4F45-B0F4-F1828AA03636}|HotelServer\\HotelServer.csproj|solutionrelative:hotelserver\\models\\bookingrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CA2E48E-26EE-43F0-8ABE-29E41B1503EC}|HotelClient\\HotelClient.csproj|c:\\users\\semen\\downloads\\hotelservertest\\hotelclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CA2E48E-26EE-43F0-8ABE-29E41B1503EC}|HotelClient\\HotelClient.csproj|solutionrelative:hotelclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05452B50-0D7C-4F45-B0F4-F1828AA03636}|HotelServer\\HotelServer.csproj|c:\\users\\semen\\downloads\\hotelservertest\\hotelserver\\wwroot\\request.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{05452B50-0D7C-4F45-B0F4-F1828AA03636}|HotelServer\\HotelServer.csproj|solutionrelative:hotelserver\\wwroot\\request.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CA2E48E-26EE-43F0-8ABE-29E41B1503EC}|HotelClient\\HotelClient.csproj|c:\\users\\semen\\downloads\\hotelservertest\\hotelclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CA2E48E-26EE-43F0-8ABE-29E41B1503EC}|HotelClient\\HotelClient.csproj|solutionrelative:hotelclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05452B50-0D7C-4F45-B0F4-F1828AA03636}|HotelServer\\HotelServer.csproj|c:\\users\\semen\\downloads\\hotelservertest\\hotelserver\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05452B50-0D7C-4F45-B0F4-F1828AA03636}|HotelServer\\HotelServer.csproj|solutionrelative:hotelserver\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05452B50-0D7C-4F45-B0F4-F1828AA03636}|HotelServer\\HotelServer.csproj|c:\\users\\semen\\downloads\\hotelservertest\\hotelserver\\services\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05452B50-0D7C-4F45-B0F4-F1828AA03636}|HotelServer\\HotelServer.csproj|solutionrelative:hotelserver\\services\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05452B50-0D7C-4F45-B0F4-F1828AA03636}|HotelServer\\HotelServer.csproj|c:\\users\\semen\\downloads\\hotelservertest\\hotelserver\\controllers\\servicerequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05452B50-0D7C-4F45-B0F4-F1828AA03636}|HotelServer\\HotelServer.csproj|solutionrelative:hotelserver\\controllers\\servicerequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05452B50-0D7C-4F45-B0F4-F1828AA03636}|HotelServer\\HotelServer.csproj|c:\\users\\semen\\downloads\\hotelservertest\\hotelserver\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{05452B50-0D7C-4F45-B0F4-F1828AA03636}|HotelServer\\HotelServer.csproj|solutionrelative:hotelserver\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05452B50-0D7C-4F45-B0F4-F1828AA03636}|HotelServer\\HotelServer.csproj|c:\\users\\semen\\downloads\\hotelservertest\\hotelserver\\models\\servicerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05452B50-0D7C-4F45-B0F4-F1828AA03636}|HotelServer\\HotelServer.csproj|solutionrelative:hotelserver\\models\\servicerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CA2E48E-26EE-43F0-8ABE-29E41B1503EC}|HotelClient\\HotelClient.csproj|c:\\users\\semen\\downloads\\hotelservertest\\hotelclient\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CA2E48E-26EE-43F0-8ABE-29E41B1503EC}|HotelClient\\HotelClient.csproj|solutionrelative:hotelclient\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CA2E48E-26EE-43F0-8ABE-29E41B1503EC}|HotelClient\\HotelClient.csproj|c:\\users\\semen\\downloads\\hotelservertest\\hotelclient\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CA2E48E-26EE-43F0-8ABE-29E41B1503EC}|HotelClient\\HotelClient.csproj|solutionrelative:hotelclient\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CA2E48E-26EE-43F0-8ABE-29E41B1503EC}|HotelClient\\HotelClient.csproj|C:\\Users\\semen\\Downloads\\HotelServerTest\\hotelclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7CA2E48E-26EE-43F0-8ABE-29E41B1503EC}|HotelClient\\HotelClient.csproj|solutionrelative:hotelclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CA2E48E-26EE-43F0-8ABE-29E41B1503EC}|HotelClient\\HotelClient.csproj|C:\\Users\\semen\\Downloads\\HotelServerTest\\hotelclient\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7CA2E48E-26EE-43F0-8ABE-29E41B1503EC}|HotelClient\\HotelClient.csproj|solutionrelative:hotelclient\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CA2E48E-26EE-43F0-8ABE-29E41B1503EC}|HotelClient\\HotelClient.csproj|c:\\users\\semen\\downloads\\hotelservertest\\hotelclient\\servicerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CA2E48E-26EE-43F0-8ABE-29E41B1503EC}|HotelClient\\HotelClient.csproj|solutionrelative:hotelclient\\servicerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CA2E48E-26EE-43F0-8ABE-29E41B1503EC}|HotelClient\\HotelClient.csproj|C:\\Users\\semen\\Downloads\\HotelServerTest\\hotelclient\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7CA2E48E-26EE-43F0-8ABE-29E41B1503EC}|HotelClient\\HotelClient.csproj|solutionrelative:hotelclient\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CA2E48E-26EE-43F0-8ABE-29E41B1503EC}|HotelClient\\HotelClient.csproj|c:\\users\\semen\\downloads\\hotelservertest\\hotelclient\\hotelclient.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7CA2E48E-26EE-43F0-8ABE-29E41B1503EC}|HotelClient\\HotelClient.csproj|solutionrelative:hotelclient\\hotelclient.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05452B50-0D7C-4F45-B0F4-F1828AA03636}|HotelServer\\HotelServer.csproj|c:\\users\\semen\\downloads\\hotelservertest\\hotelserver\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{05452B50-0D7C-4F45-B0F4-F1828AA03636}|HotelServer\\HotelServer.csproj|solutionrelative:hotelserver\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05452B50-0D7C-4F45-B0F4-F1828AA03636}|HotelServer\\HotelServer.csproj|c:\\users\\semen\\downloads\\hotelservertest\\hotelserver\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{05452B50-0D7C-4F45-B0F4-F1828AA03636}|HotelServer\\HotelServer.csproj|solutionrelative:hotelserver\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 674,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HotelServer",
+              "DocumentMoniker": "C:\\Users\\semen\\Downloads\\HotelServerTest\\HotelServer\\HotelServer.csproj",
+              "RelativeDocumentMoniker": "HotelServer\\HotelServer.csproj",
+              "ToolTip": "C:\\Users\\semen\\Downloads\\HotelServerTest\\HotelServer\\HotelServer.csproj",
+              "RelativeToolTip": "HotelServer\\HotelServer.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-18T23:41:54.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClientService.cs",
+              "DocumentMoniker": "C:\\Users\\semen\\Downloads\\HotelServerTest\\HotelServer\\Services\\ClientService.cs",
+              "RelativeDocumentMoniker": "HotelServer\\Services\\ClientService.cs",
+              "ToolTip": "C:\\Users\\semen\\Downloads\\HotelServerTest\\HotelServer\\Services\\ClientService.cs*",
+              "RelativeToolTip": "HotelServer\\Services\\ClientService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T22:49:03.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "hotel.proto",
+              "DocumentMoniker": "C:\\Users\\semen\\Downloads\\HotelServerTest\\HotelClient\\Protos\\hotel.proto",
+              "RelativeDocumentMoniker": "HotelClient\\Protos\\hotel.proto",
+              "ToolTip": "C:\\Users\\semen\\Downloads\\HotelServerTest\\HotelClient\\Protos\\hotel.proto*",
+              "RelativeToolTip": "HotelClient\\Protos\\hotel.proto*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2025-04-07T17:38:35.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "hotel.proto",
+              "DocumentMoniker": "C:\\Users\\semen\\Downloads\\HotelServerTest\\HotelServer\\Protos\\hotel.proto",
+              "RelativeDocumentMoniker": "HotelServer\\Protos\\hotel.proto",
+              "ToolTip": "C:\\Users\\semen\\Downloads\\HotelServerTest\\HotelServer\\Protos\\hotel.proto*",
+              "RelativeToolTip": "HotelServer\\Protos\\hotel.proto*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2025-03-30T10:13:49.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AdminService.cs",
+              "DocumentMoniker": "C:\\Users\\semen\\Downloads\\HotelServerTest\\HotelServer\\Services\\AdminService.cs",
+              "RelativeDocumentMoniker": "HotelServer\\Services\\AdminService.cs",
+              "ToolTip": "C:\\Users\\semen\\Downloads\\HotelServerTest\\HotelServer\\Services\\AdminService.cs",
+              "RelativeToolTip": "HotelServer\\Services\\AdminService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T22:48:39.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\semen\\Downloads\\HotelServerTest\\HotelServer\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "HotelServer\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\semen\\Downloads\\HotelServerTest\\HotelServer\\Services\\AuthService.cs",
+              "RelativeToolTip": "HotelServer\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T19:33:44.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\semen\\Downloads\\HotelServerTest\\HotelServer\\Models\\Client.cs",
+              "RelativeDocumentMoniker": "HotelServer\\Models\\Client.cs",
+              "ToolTip": "C:\\Users\\semen\\Downloads\\HotelServerTest\\HotelServer\\Models\\Client.cs*",
+              "RelativeToolTip": "HotelServer\\Models\\Client.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T23:00:21.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\semen\\Downloads\\HotelServerTest\\HotelServer\\Program.cs",
+              "RelativeDocumentMoniker": "HotelServer\\Program.cs",
+              "ToolTip": "C:\\Users\\semen\\Downloads\\HotelServerTest\\HotelServer\\Program.cs*",
+              "RelativeToolTip": "HotelServer\\Program.cs*",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAD0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T10:17:59.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CleaningService.cs",
+              "DocumentMoniker": "C:\\Users\\semen\\Downloads\\HotelServerTest\\HotelServer\\Services\\CleaningService.cs",
+              "RelativeDocumentMoniker": "HotelServer\\Services\\CleaningService.cs",
+              "ToolTip": "C:\\Users\\semen\\Downloads\\HotelServerTest\\HotelServer\\Services\\CleaningService.cs",
+              "RelativeToolTip": "HotelServer\\Services\\CleaningService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T15:57:43.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\semen\\Downloads\\HotelServerTest\\HotelServer\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "HotelServer\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\semen\\Downloads\\HotelServerTest\\HotelServer\\Data\\AppDbContext.cs*",
+              "RelativeToolTip": "HotelServer\\Data\\AppDbContext.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T19:32:57.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "request.html",
+              "DocumentMoniker": "C:\\Users\\semen\\Downloads\\HotelServerTest\\HotelServer\\wwroot\\request.html",
+              "RelativeDocumentMoniker": "HotelServer\\wwroot\\request.html",
+              "ToolTip": "C:\\Users\\semen\\Downloads\\HotelServerTest\\HotelServer\\wwroot\\request.html",
+              "RelativeToolTip": "HotelServer\\wwroot\\request.html",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAmwBgAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-04-18T15:51:01.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BookingRecord.cs",
+              "DocumentMoniker": "C:\\Users\\semen\\Downloads\\HotelServerTest\\HotelServer\\Models\\BookingRecord.cs",
+              "RelativeDocumentMoniker": "HotelServer\\Models\\BookingRecord.cs",
+              "ToolTip": "C:\\Users\\semen\\Downloads\\HotelServerTest\\HotelServer\\Models\\BookingRecord.cs",
+              "RelativeToolTip": "HotelServer\\Models\\BookingRecord.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T19:44:14.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\semen\\Downloads\\HotelServerTest\\HotelClient\\Program.cs",
+              "RelativeDocumentMoniker": "HotelClient\\Program.cs",
+              "ToolTip": "C:\\Users\\semen\\Downloads\\HotelServerTest\\HotelClient\\Program.cs",
+              "RelativeToolTip": "HotelClient\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T13:40:00.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ServiceRequest.cs",
+              "DocumentMoniker": "C:\\Users\\semen\\Downloads\\HotelServerTest\\HotelServer\\Models\\ServiceRequest.cs",
+              "RelativeDocumentMoniker": "HotelServer\\Models\\ServiceRequest.cs",
+              "ToolTip": "C:\\Users\\semen\\Downloads\\HotelServerTest\\HotelServer\\Models\\ServiceRequest.cs",
+              "RelativeToolTip": "HotelServer\\Models\\ServiceRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T16:31:03.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\semen\\Downloads\\HotelServerTest\\HotelServer\\Models\\User.cs",
+              "RelativeDocumentMoniker": "HotelServer\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\semen\\Downloads\\HotelServerTest\\HotelServer\\Models\\User.cs",
+              "RelativeToolTip": "HotelServer\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T19:26:12.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BookingService.cs",
+              "DocumentMoniker": "C:\\Users\\semen\\Downloads\\HotelServerTest\\HotelServer\\Services\\BookingService.cs",
+              "RelativeDocumentMoniker": "HotelServer\\Services\\BookingService.cs",
+              "ToolTip": "C:\\Users\\semen\\Downloads\\HotelServerTest\\HotelServer\\Services\\BookingService.cs",
+              "RelativeToolTip": "HotelServer\\Services\\BookingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T11:16:28.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Form3.cs",
+              "DocumentMoniker": "C:\\Users\\semen\\Downloads\\HotelServerTest\\HotelClient\\Form3.cs",
+              "RelativeDocumentMoniker": "HotelClient\\Form3.cs",
+              "ToolTip": "C:\\Users\\semen\\Downloads\\HotelServerTest\\HotelClient\\Form3.cs",
+              "RelativeToolTip": "HotelClient\\Form3.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T16:11:15.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\semen\\Downloads\\HotelServerTest\\HotelServer\\appsettings.json",
+              "RelativeDocumentMoniker": "HotelServer\\appsettings.json",
+              "ToolTip": "C:\\Users\\semen\\Downloads\\HotelServerTest\\HotelServer\\appsettings.json",
+              "RelativeToolTip": "HotelServer\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-30T10:56:54.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\semen\\Downloads\\HotelServerTest\\HotelClient\\Form1.cs",
+              "RelativeDocumentMoniker": "HotelClient\\Form1.cs",
+              "ToolTip": "C:\\Users\\semen\\Downloads\\HotelServerTest\\HotelClient\\Form1.cs",
+              "RelativeToolTip": "HotelClient\\Form1.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T10:23:30.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "C:\\Users\\semen\\Downloads\\HotelServerTest\\HotelClient\\Form2.cs",
+              "RelativeDocumentMoniker": "HotelClient\\Form2.cs",
+              "ToolTip": "C:\\Users\\semen\\Downloads\\HotelServerTest\\HotelClient\\Form2.cs",
+              "RelativeToolTip": "HotelClient\\Form2.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T11:24:23.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ServiceRequestController.cs",
+              "DocumentMoniker": "C:\\Users\\semen\\Downloads\\HotelServerTest\\HotelServer\\Controllers\\ServiceRequestController.cs",
+              "RelativeDocumentMoniker": "HotelServer\\Controllers\\ServiceRequestController.cs",
+              "ToolTip": "C:\\Users\\semen\\Downloads\\HotelServerTest\\HotelServer\\Controllers\\ServiceRequestController.cs",
+              "RelativeToolTip": "HotelServer\\Controllers\\ServiceRequestController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T16:35:22.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\semen\\Downloads\\HotelServerTest\\HotelServer\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "HotelServer\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\semen\\Downloads\\HotelServerTest\\HotelServer\\appsettings.Development.json",
+              "RelativeToolTip": "HotelServer\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-07T18:13:55.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\semen\\Downloads\\HotelServerTest\\HotelServer\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "HotelServer\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\semen\\Downloads\\HotelServerTest\\HotelServer\\Properties\\launchSettings.json",
+              "RelativeToolTip": "HotelServer\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-07T18:02:25.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ServiceRequest.cs",
+              "DocumentMoniker": "C:\\Users\\semen\\Downloads\\HotelServerTest\\HotelClient\\ServiceRequest.cs",
+              "RelativeDocumentMoniker": "HotelClient\\ServiceRequest.cs",
+              "ToolTip": "C:\\Users\\semen\\Downloads\\HotelServerTest\\HotelClient\\ServiceRequest.cs",
+              "RelativeToolTip": "HotelClient\\ServiceRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T17:21:39.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "HotelClient.csproj",
+              "DocumentMoniker": "C:\\Users\\semen\\Downloads\\HotelServerTest\\HotelClient\\HotelClient.csproj",
+              "RelativeDocumentMoniker": "HotelClient\\HotelClient.csproj",
+              "ToolTip": "C:\\Users\\semen\\Downloads\\HotelServerTest\\HotelClient\\HotelClient.csproj",
+              "RelativeToolTip": "HotelClient\\HotelClient.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-07T17:38:42.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Form2.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\semen\\Downloads\\HotelServerTest\\HotelClient\\Form2.cs",
+              "RelativeDocumentMoniker": "HotelClient\\Form2.cs",
+              "ToolTip": "C:\\Users\\semen\\Downloads\\HotelServerTest\\HotelClient\\Form2.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "HotelClient\\Form2.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T11:23:05.415Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Form3.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\semen\\Downloads\\HotelServerTest\\HotelClient\\Form3.cs",
+              "RelativeDocumentMoniker": "HotelClient\\Form3.cs",
+              "ToolTip": "C:\\Users\\semen\\Downloads\\HotelServerTest\\HotelClient\\Form3.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "HotelClient\\Form3.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T16:43:51.955Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\semen\\Downloads\\HotelServerTest\\HotelClient\\Form1.cs",
+              "RelativeDocumentMoniker": "HotelClient\\Form1.cs",
+              "ToolTip": "C:\\Users\\semen\\Downloads\\HotelServerTest\\HotelClient\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "HotelClient\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T10:18:55.985Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 331,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
