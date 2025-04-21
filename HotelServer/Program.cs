@@ -59,7 +59,7 @@ app.UseCors();
 app.MapGrpcService<AuthServiceImpl>();
 app.MapGrpcService<BookingServiceImpl>();
 app.MapGrpcService<CleaningServiceImpl>();
-
+app.MapGrpcService<ClientServiceImpl>();
 // Маршрут для REST API-контроллеров
 app.MapControllers();
 

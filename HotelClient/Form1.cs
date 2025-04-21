@@ -1,62 +1,101 @@
 using System;
-using System.Net.Http;
 using System.Windows.Forms;
+using Grpc.Core;
 using Grpc.Net.Client;
 using Hotel;
-using HotelClient;
 
 namespace HotelClient
 {
     public partial class Form1 : Form
     {
-        private AuthService.AuthServiceClient authClient;
+        private readonly AuthService.AuthServiceClient _authClient;
+        private readonly GrpcChannel _authChannel;
 
         public Form1()
         {
             InitializeComponent();
 
+            // Настройка gRPC канала для авторизации
             var httpHandler = new HttpClientHandler
             {
-                ServerCertificateCustomValidationCallback = HttpClientHandler.DangerousAcceptAnyServerCertificateValidator
+                ServerCertificateCustomValidationCallback =
+                    HttpClientHandler.DangerousAcceptAnyServerCertificateValidator
             };
 
-            var channel = GrpcChannel.ForAddress("http://localhost:5207", new GrpcChannelOptions { HttpHandler = httpHandler });
+            _authChannel = GrpcChannel.ForAddress("http://localhost:5207",
+                new GrpcChannelOptions { HttpHandler = httpHandler });
 
-            authClient = new AuthService.AuthServiceClient(channel);
+            _authClient = new AuthService.AuthServiceClient(_authChannel);
         }
 
         private async void btnLogin_Click(object sender, EventArgs e)
         {
-            var request = new LoginRequest
+            try
             {
-                Username = txtUsername.Text,
-                Password = txtPassword.Text
-            };
+                btnLogin.Enabled = false;
+                lblResult.Text = "Авторизация...";
+                lblResult.ForeColor = System.Drawing.Color.Black;
 
-            var response = await authClient.LoginAsync(request);
-
-            if (response.Success)
-            {
-                MessageBox.Show(response.Message, "Успех", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-                if (response.Role == "admin")
+                var request = new LoginRequest
                 {
-                    Form2 bookingForm = new Form2();
-                    bookingForm.Show();
-                }
-                else if (response.Role == "cleaner")
-                {
-                    Form3 cleanerForm = new Form3(); // Добавляем новую форму
-                    cleanerForm.Show();
-                }
+                    Username = txtUsername.Text.Trim(),
+                    Password = txtPassword.Text
+                };
 
-                this.Hide(); // Скрываем форму авторизации
+                var response = await _authClient.LoginAsync(request);
+
+                if (response.Success)
+                {
+                    OpenRoleSpecificForm(response.Role);
+                }
+                else
+                {
+                    lblResult.Text = response.Message;
+                    lblResult.ForeColor = System.Drawing.Color.Red;
+                }
             }
-            else
+            catch (RpcException ex)
             {
-                lblResult.Text = response.Message;
+                lblResult.Text = $"Ошибка соединения: {ex.Status.Detail}";
                 lblResult.ForeColor = System.Drawing.Color.Red;
             }
+            finally
+            {
+                btnLogin.Enabled = true;
+            }
+        }
+
+        private void OpenRoleSpecificForm(string role)
+        {
+            this.Hide(); // Скрываем форму авторизации
+
+            switch (role)
+            {
+                case "admin":
+                    var adminChannel = GrpcChannel.ForAddress("http://localhost:5208");
+                    var adminForm = new AdminMenuForm(adminChannel);
+                    adminForm.FormClosed += (s, args) => this.Close();
+                    adminForm.Show();
+                    break;
+
+                case "cleaner":
+                    // Форма для уборщиков без передачи канала
+                    var cleanerForm = new Form3();
+                    cleanerForm.FormClosed += (s, args) => this.Close();
+                    cleanerForm.Show();
+                    break;
+
+                default:
+                    MessageBox.Show("Неизвестная роль пользователя", "Ошибка");
+                    this.Close();
+                    break;
+            }
+        }
+
+        protected override void OnFormClosing(FormClosingEventArgs e)
+        {
+            _authChannel?.Dispose();
+            base.OnFormClosing(e);
         }
     }
 }
