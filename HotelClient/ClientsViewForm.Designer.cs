@@ -15,52 +15,67 @@
 
         private void InitializeComponent()
         {
-            this.clientsGridView = new System.Windows.Forms.DataGridView();
-            this.btnRefresh = new System.Windows.Forms.Button();
-            this.btnClose = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.clientsGridView)).BeginInit();
-            this.SuspendLayout();
-
+            clientsGridView = new DataGridView();
+            btnRefresh = new Button();
+            btnClose = new Button();
+            comboBox1 = new ComboBox();
+            ((System.ComponentModel.ISupportInitialize)clientsGridView).BeginInit();
+            SuspendLayout();
+            // 
             // clientsGridView
-            this.clientsGridView.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                | System.Windows.Forms.AnchorStyles.Left)
-                | System.Windows.Forms.AnchorStyles.Right)));
-            this.clientsGridView.Location = new System.Drawing.Point(12, 12);
-            this.clientsGridView.Name = "clientsGridView";
-            this.clientsGridView.Size = new System.Drawing.Size(760, 400);
-            this.clientsGridView.TabIndex = 0;
-
+            // 
+            clientsGridView.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            clientsGridView.Location = new Point(12, 12);
+            clientsGridView.Name = "clientsGridView";
+            clientsGridView.Size = new Size(760, 400);
+            clientsGridView.TabIndex = 0;
+            // 
             // btnRefresh
-            this.btnRefresh.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnRefresh.Location = new System.Drawing.Point(12, 425);
-            this.btnRefresh.Name = "btnRefresh";
-            this.btnRefresh.Size = new System.Drawing.Size(100, 30);
-            this.btnRefresh.Text = "Обновить";
-            this.btnRefresh.Click += new System.EventHandler(this.btnRefresh_Click);
-
+            // 
+            btnRefresh.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            btnRefresh.Location = new Point(12, 425);
+            btnRefresh.Name = "btnRefresh";
+            btnRefresh.Size = new Size(100, 30);
+            btnRefresh.TabIndex = 1;
+            btnRefresh.Text = "Обновить";
+            btnRefresh.Click += btnRefresh_Click;
+            // 
             // btnClose
-            this.btnClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnClose.Location = new System.Drawing.Point(672, 425);
-            this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(100, 30);
-            this.btnClose.Text = "Закрыть";
-            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
-
+            // 
+            btnClose.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            btnClose.Location = new Point(672, 425);
+            btnClose.Name = "btnClose";
+            btnClose.Size = new Size(100, 30);
+            btnClose.TabIndex = 0;
+            btnClose.Text = "Закрыть";
+            btnClose.Click += btnClose_Click;
+            // 
+            // comboBox1
+            // 
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Location = new Point(145, 430);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new Size(130, 23);
+            comboBox1.TabIndex = 2;
+            // 
             // ClientsViewForm
-            this.ClientSize = new System.Drawing.Size(784, 461);
-            this.Controls.Add(this.btnClose);
-            this.Controls.Add(this.btnRefresh);
-            this.Controls.Add(this.clientsGridView);
-            this.MinimumSize = new System.Drawing.Size(600, 400);
-            this.Name = "ClientsViewForm";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Список клиентов";
-            ((System.ComponentModel.ISupportInitialize)(this.clientsGridView)).EndInit();
-            this.ResumeLayout(false);
+            // 
+            ClientSize = new Size(784, 461);
+            Controls.Add(comboBox1);
+            Controls.Add(btnClose);
+            Controls.Add(btnRefresh);
+            Controls.Add(clientsGridView);
+            MinimumSize = new Size(600, 400);
+            Name = "ClientsViewForm";
+            StartPosition = FormStartPosition.CenterParent;
+            Text = "Список клиентов";
+            ((System.ComponentModel.ISupportInitialize)clientsGridView).EndInit();
+            ResumeLayout(false);
         }
 
         private System.Windows.Forms.DataGridView clientsGridView;
         private System.Windows.Forms.Button btnRefresh;
         private System.Windows.Forms.Button btnClose;
+        private ComboBox comboBox1;
     }
 }
