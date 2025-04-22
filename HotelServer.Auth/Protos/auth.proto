@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+option csharp_namespace = "HotelServer.Auth";
+
+package Auth;
+
+// Общие сообщения
+message Empty {}
+
+message Ack {
+    bool success = 1;
+    string message = 2;
+}
+
+// Авторизация
+message LoginRequest {
+    string username = 1;
+    string password = 2;
+}
+
+message LoginResponse {
+    bool success = 1;
+    string message = 2;
+    string role = 3;
+}
+
+service AuthService {
+    rpc Login(LoginRequest) returns (LoginResponse);
+}

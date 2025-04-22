@@ -1,0 +1,34 @@
+syntax = "proto3";
+
+option csharp_namespace = "HotelServer.Cleaning";
+
+package Cleaning;
+
+// Общие сообщения
+message Empty {}
+
+message Ack {
+    bool success = 1;
+    string message = 2;
+}
+
+// Заявки на уборку
+message CleaningRequest {
+    int32 id = 1;
+    string room_number = 2;
+    string category = 3;
+    bool completed = 4;
+}
+
+message CleaningRequestList {
+    repeated CleaningRequest requests = 1;
+}
+
+message CleaningRequestId {
+    int32 id = 1;
+}
+
+service CleaningService {
+    rpc GetCleaningRequests(Empty) returns (CleaningRequestList);
+    rpc CompleteRequest(CleaningRequestId) returns (Ack);
+}

@@ -1,0 +1,43 @@
+syntax = "proto3";
+
+option csharp_namespace = "HotelServer.Booking";
+
+package Booking;
+
+// Общие сообщения
+message Empty {}
+
+message Ack {
+    bool success = 1;
+    string message = 2;
+}
+
+// Бронирование
+message BookingRequest {
+    string customer_name = 1;
+    string room_type = 2;
+    string check_in_date = 3;
+    string check_out_date = 4;
+}
+
+message BookingResponse {
+    bool success = 1;
+    string message = 2;
+}
+
+message Booking {
+    int32 id = 1;
+    string customer_name = 2;
+    string room_type = 3;
+    string check_in_date = 4;
+    string check_out_date = 5;
+}
+
+message BookingListResponse {
+    repeated Booking bookings = 1;
+}
+
+service BookingService {
+    rpc BookRoom(BookingRequest) returns (BookingResponse);
+    rpc GetBookings(Empty) returns (BookingListResponse);
+}
